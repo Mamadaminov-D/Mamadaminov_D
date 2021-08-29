@@ -13,7 +13,7 @@ header {
 
 
 
-.header-item{
+.header-item {
   padding: 0;
 }
 
@@ -37,12 +37,12 @@ header {
   background: rgba(25, 25, 25, 0.7);
   color: #fff;
 }
-main{
+
+main {
   scroll-behavior: smooth;
 }
 
 .hover:hover {
-  display: inline-block;
   padding: 8px 16px;
   background-color: #fff;
   border-radius: 8px;
@@ -50,7 +50,7 @@ main{
   border-color: #00BAFC;
 }
 
-#service{
+#service {
   padding-top: 56px;
 }
 
@@ -156,16 +156,42 @@ main{
   border-radius: 5px;
   width: 320px;
   height: 260px;
-   padding: 24px;
+  padding: 24px;
   box-sizing: border-box;
   background-repeat: no-repeat;
   margin-bottom: 48px;
   margin-right: 70px;
+}
+
+.cards:hover {
+  width: 320px;
+  height: 260px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  margin-bottom: 48px;
+  margin-right: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.cards:active {
+  width: 320px;
+  height: 260px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  margin-bottom: 48px;
+  margin-right: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 
 }
 
 .soft {
-  padding: 0 ;
+  padding: 0;
   margin-right: -70px;
 }
 
