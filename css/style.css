@@ -176,6 +176,8 @@ main {
   border-radius: 5px;
 }
 
+
+
 .cards:active {
   width: 320px;
   height: 260px;
@@ -405,6 +407,10 @@ select {
   margin-bottom: 16px;
   border: none;
   border-radius: 4px;
+  padding: 0;
+}
+
+.name input::placeholder{
   padding-left: 10px;
 }
 
@@ -516,4 +522,17 @@ footer {
 
 .big-footer {
   margin-right: 100px;
+}
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color:  #00BAFC;
+  
+}
+
+footer a:active {
+  color:  #00BAFC;
+  opacity: 0.6;
 }
